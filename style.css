@@ -1,0 +1,511 @@
+/* Global CSS Start */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h2 {
+	color: #0f5f5c;
+}
+
+
+/* Global CSS End */
+
+
+/* Header CSS Start */
+
+header {
+	position: absolute;
+	top 0;
+	z-index: 999;
+	width: 100%;
+	padding: 30px 0;
+	box-shadow: 0px 0px black;
+}
+
+.navbar {
+	border: 0px solid #507171;
+	border-bottom-width: 2px;
+	padding-bottom: 35px;
+}
+
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+	color: #c6cbcb;
+	opacity: .7;
+	margin-left: 15px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.active .nav-link {
+	color: #c6cbcb;
+	font-weight: 700;
+}
+
+.nav-link:hover {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.cta_btn {
+	background-color: #6a7f7f;
+	color: #ffffff;
+	font-weight: 900;
+	border-radius: 4px;
+}
+
+.top-phone {
+	margin-left: 12px;
+	border: 0px solid white;
+	border-left-width: 1px;
+	padding-left: 22px;
+}
+
+.top-phone i {
+	color: #bec8c8;
+	font-size: 16px;
+	margin-right: 15px;
+}
+
+.top-phone a {
+	color: #bec8c8;
+	font-weight: 700;
+	font-family: "Montserrat";
+}
+
+
+/* Header CSS End */
+
+
+/* Banner CSS Start */
+
+#banner {
+	background-position: top canter;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+#banner::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #2d6e70;
+	opacity: .9;
+}
+
+#banner h1 {
+	color: #ffffff;
+}
+
+#banner p {
+	color: #ffffff;
+	width: 46%;
+	padding: 20px 0 30px;
+}
+
+.green_btn {
+	background: #6fb048;
+	color: #ffffff;
+	padding: 15px 45px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	border: 1px solid #6fb048;
+}
+
+.green_btn:hover {
+	color: #ffffff;
+	background: transparent;
+}
+
+
+/* Banner CSS End */
+
+
+/* Feature CSS Start */
+
+.title h2 {
+	color: #0f5f5c;
+	padding-top: 102px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.title h2::after {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 65px;
+	height: 1px;
+	background-color: #6fb048;
+}
+
+.title p {
+	font-size: 15px;
+	color: #83a7a5;
+	padding: 0 30%;
+}
+
+#features .items {
+	margin-top: 60px;
+}
+
+#features .items img {
+	height: 55px;
+}
+
+#features .items h4 {
+	padding: 25px 0;
+	color: #0f5f5c;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#features p {
+	font-size: 14px;
+	color: #83a7a5;
+}
+
+.shape {
+	position: relative;
+	height: 90px;
+}
+
+.shape::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 2px;
+	height: 90px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
+.shape::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 90px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
+#features .media {
+	margin-top: 50px;
+}
+
+#features .media img {
+	height: 30px;
+	widows: 30px;
+	object-fit: contain;
+	margin-top: 20px;
+}
+
+#features .media-body h4 {
+	color: #0f5f5c;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+
+/* Feature CSS End */
+
+
+/* Phone Ares CSS Start */
+
+
+/* Phone Ares CSS Start */
+
+#phone_area {
+	background-color: #eef1ec;
+	height: 666px;
+	margin-top: 125px;
+}
+
+#phone_area .hand {
+	position: relative;
+}
+
+#phone_area .hand::before {
+	content: "";
+	background: transparent url(assets/images/hand.png) scroll no-repeat 0 0;
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 16px;
+	display: block;
+	left: 0;
+}
+
+#phone_area .title h2 {
+	color: #0f5f5c;
+	padding-top: 37px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#phone_area .phone_content {
+	color: #0f5f5c;
+	margin-top: 110px;
+}
+
+#phone_area .phone_content h2 {}
+
+#phone_area .phone_content p {
+	font-size: 14px;
+	color: #83a7a5;
+}
+
+#phone_area .phone_content .media {
+	font-size: 14px;
+	color: #83a7a5;
+}
+
+#phone_area .phone_content img {
+	height: 24px;
+	margin-right: 12px;
+}
+
+
+/* Phone Ares CSS End */
+
+
+/* Testimonial Area CSS Start */
+
+#testimonial {
+	color: white;
+	height: 680px;
+}
+
+#testimonial .message_area {
+	margin-top: 234px;
+}
+
+#testimonial .quote {
+	font-size: 22px;
+	color: #83a7a5;
+}
+
+#testimonial .name {
+	font-size: 14px;
+	color: #6fb048;
+}
+
+#testimonial .designation {
+	font-size: 14px;
+	color: #83a7a5;
+}
+
+#testimonial img {
+	vertical-align: middle;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin-top: 140px;
+}
+
+
+/* Testimonial Area CSS End */
+
+
+/* World Section CSS Start */
+
+#world {
+	height: 500px;
+	background-color: #eef1ec;
+}
+
+#world img {
+	vertical-align: middle;
+	border-style: none;
+	margin-top: 50px;
+}
+
+#world h2 {
+	font-size: 32px;
+	margin-top: 170px;
+}
+
+#world p {
+	font-size: 14px;
+	color: #c1d0cd;
+}
+
+
+/* World Section CSS End */
+
+
+/* Priceing Area Start */
+
+#pricing {
+	margin-bottom: 10px;
+}
+
+#pricing table {
+	margin: 10px 234px 0px;
+}
+
+#pricing .title p {
+	font-size: 13px;
+}
+
+#pricing .plan_name {
+	font-size: 15px;
+	color: #6fb048;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#pricing .plan_price {
+	font-size: 65px;
+	color: #0f5f5c;
+	font-weight: 700;
+}
+
+#pricing .billing_cycle {
+	font-size: 14px;
+	color: #0f5f5c;
+	font-weight: 700;
+	margin-top: -23px;
+}
+
+#pricing .plan_description {
+	font-size: 14px;
+	color: #c1d3d2;
+	margin: 10px 0px;
+}
+
+#pricing .green_btn {
+	background: #6fb048;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 8px 19px;
+	margin: 29px 2px;
+	border-radius: 1px;
+	text-transform: uppercase;
+	border: 1px solid #6fb048;
+}
+
+#pricing .green_btn:hover {
+	color: #6fb048;
+	background: transparent;
+}
+
+#pricing .gray_btn {
+	background: #83a7a5;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 8px 19px;
+	margin: 29px 2px;
+	border-radius: 1px;
+	text-transform: uppercase;
+	border: 1px solid #83a7a5;
+}
+
+#pricing .gray_btn:hover {
+	color: #83a7a5;
+	background: transparent;
+}
+
+#pricing .includes {
+	margin-top: -55px;
+}
+
+#pricing .content p {
+	font-size: 14px;
+	color: #83a7a5;
+}
+
+#pricing .content .media {
+	font-size: 13px;
+	color: #83a7a5;
+}
+
+#pricing .content img {
+	height: 19px;
+	margin-right: 12px;
+}
+
+#pricing .title {
+	margin-bottom: 40px;
+}
+
+#pricing .title h2 {
+	font-size: 22px;
+}
+
+#pricing .help {
+	margin-bottom: 40px;
+}
+
+#pricing .help h2 {
+	font-size: 32px;
+	color: #6fb048;
+	margin-top: -90px;
+}
+
+#pricing .help img {
+	margin-top: 22px;
+}
+
+#pricing .support {
+	font-size: 22px;
+	margin-bottom: 100px;
+}
+
+
+/* Priceing Area End */
+
+
+/* Download CSS Start */
+
+#download {
+	height: 200px;
+	background-image: url('assets/images/banner_2.jpg');
+	margin-bottom: 100px;
+}
+
+#download h2 {
+	margin-top: 63px;
+}
+
+#download .download_btn {
+	background: #6fb048;
+	color: #ffffff;
+	padding: 14px 71px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	border: 1px solid #6fb048;
+	font-size: 13px;
+	margin-top: 80px;
+	display: flex;
+}
+
+#download .download_btn:hover {
+	font-size: 13px;
+	color: #6FB048;
+	background: transparent;
+}
+
+
+/* Download CSS End */
